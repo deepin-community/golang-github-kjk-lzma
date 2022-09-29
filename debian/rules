@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export DH_GOLANG_EXCLUDES := lzma_go
+export DH_GOLANG_INSTALL_EXTRA := data
+
+%:
+	dh $@ --buildsystem=golang --with=golang

@@ -1,0 +1,65 @@
+golang-github-kjk-lzma (1.0.0-7) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only-upload for testing migration.
+
+ -- Nilesh Patra <npatra974@gmail.com>  Sun, 21 Feb 2021 12:35:11 +0530
+
+golang-github-kjk-lzma (1.0.0-6) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Apply multi-arch hints.
+    + golang-github-kjk-lzma-dev: Add Multi-Arch: foreign (Closes: #960723).
+
+  [ Aloïs Micard ]
+  * Bump debhelper from 11 to 13.
+  * Bump Standards-Version.
+  * Mark myself as uploader (Closes: #940384).
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 06 Jun 2020 10:49:16 -0000
+
+golang-github-kjk-lzma (1.0.0-5) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Michael Stapelberg ]
+  * update debian/gitlab-ci.yml (using salsa.debian.org/go-team/ci/cmd/ci)
+
+  [ Shengjing Zhu ]
+  * Replace golang-go with golang-any, drop golang-go from -dev Depends.
+  * Bump debhelper and compat to 11.
+  * Bump Standards-Version to 4.2.1. (no changes)
+  * Update team mail address to team+pkg-go@tracker.debian.org.
+  * Use secure url in Format field of copyright file.
+  * Use DH_GOLANG_INSTALL_EXTRA instead of manually copying.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 15 Sep 2018 14:36:44 +0800
+
+golang-github-kjk-lzma (1.0.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:41:27 -0500
+
+golang-github-kjk-lzma (1.0.0-3) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:21:52 -0500
+
+golang-github-kjk-lzma (1.0.0-2) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+  * Testsuite: autopkgtest-pkg-go.
+  * Priority extra -> optional.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 02:59:16 -0500
+
+golang-github-kjk-lzma (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #840903)
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 15 Oct 2016 19:08:47 -0400
